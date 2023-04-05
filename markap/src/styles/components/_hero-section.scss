@@ -1,0 +1,18 @@
+.hero-section {
+    background-image: url(../images/symbol.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 100%;
+    display: flex;
+    align-items: center;
+    padding: 234px 0 228px 0;
+    position: relative;
+
+    @media (min-width: 768px) {
+        padding: 492px 0 486px 0;
+      }
+
+      @media (min-width: 1440px) {
+        padding: 380px 0 374px 0;
+      }    
+}

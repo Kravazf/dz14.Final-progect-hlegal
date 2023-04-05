@@ -1,0 +1,13 @@
+:root {
+  --color: #ffffff;
+}
+
+@import "./vendors/normalize";
+@import "./vendors/fonts";
+@import "./vendors/icomoon-font-icon";
+@import "./layout/common";
+@import "./layout/header";
+
+@import"./components/hero-section";
+@import "./layout/main";
+@import "./layout/footer";

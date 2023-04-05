@@ -1,0 +1,81 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the common layout of the site
+// -----------------------------------------------------------------------------
+#wrapper {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: var(--color);
+  margin: 0;
+  font-size: 38px;
+  line-height: calc(46/38);
+  text-align: center;
+}
+
+h2 {
+  color: var(--color);
+  margin: 0;
+  font-size: 20px;
+  line-height: calc(24/20);
+
+    @media (min-width: 768px){
+      font-size: 30px;
+      line-height: calc(37/30);
+  }
+}
+
+h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: calc(27/22);
+  color: #24A3FF;
+}
+
+a {
+  color: var(--color);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    padding: 0 30px;
+  }
+
+    @media (min-width: 1440px) {
+      padding: 0 60px;
+    }
+}
+
+.main-container {
+  margin: 0 auto;
+  padding: 0 30px;
+
+  @media (min-width: 768px){
+    padding: 0 60px;
+  }
+}
+
+address {
+  font-style: normal;
+}
