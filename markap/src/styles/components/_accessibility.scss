@@ -1,0 +1,15 @@
+.accessibility {
+    position:absolute;
+    left:-10000px;
+    overflow:hidden;
+  }
+  .accessibility:focus {
+    position:relative;
+    left:50%;
+    width:auto;
+    background:#ff8f8f;
+    color:#000;
+    font-size:14px;
+    height:auto;
+  }
+  

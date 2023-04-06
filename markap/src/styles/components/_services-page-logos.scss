@@ -1,0 +1,33 @@
+.services-page-logos {
+    display: flex;
+
+    .img-logos {
+        min-width: 70px;
+
+        @media (min-width:768px) {
+            min-width: 130px;
+        }
+    }
+
+    .img-slash {
+        min-width: 12px;
+        margin: 0 4px;
+
+        @media (min-width:768px) {
+            min-width: 21px;
+        }
+    }
+    
+    p {
+        margin: 0;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: calc(24/20);
+
+        @media (min-width:768px) {
+            font-size: 36px;
+            line-height: calc(44/36);
+        }
+    }
+}

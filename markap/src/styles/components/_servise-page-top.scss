@@ -1,0 +1,15 @@
+.servise-page-top {
+    padding: 126px 0 30px 0;
+
+    @media (min-width: 768px) {
+        padding: 274px 0 0 0;
+
+        @media (min-width: 1024px) {
+            padding: 259px 0 0 0;
+
+            @media (min-width: 1440px) {
+            padding: 170px 0 0 0;
+            }
+        }
+    }
+}

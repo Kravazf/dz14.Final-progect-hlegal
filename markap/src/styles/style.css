@@ -773,6 +773,37 @@ address {
   }
 }
 
+noscript {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  background: #ff8f8f;
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  z-index: 99999;
+}
+
+.accessibility {
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+}
+
+.accessibility:focus {
+  position: relative;
+  left: 50%;
+  width: auto;
+  background: #ff8f8f;
+  color: #000;
+  font-size: 14px;
+  height: auto;
+}
+
 .bg-top-gradient {
   background: linear-gradient(to bottom, #323264 0%, #323264 59.9%, #643E72 100%);
   border-bottom-left-radius: 12px;
@@ -1559,11 +1590,6 @@ address {
     flex-direction: row;
     margin: 0 -13px 21px -13px;
   }
-}
-@media (min-width: 768px) and (min-width: 1024px) {
-  .info-footer__address {
-    margin: 0 -13px 18px -13px;
-  }
   .info-footer__address a {
     position: relative;
     padding: 0 13px;
@@ -1578,6 +1604,11 @@ address {
     top: 50%;
     right: -4px;
     transform: translateY(-50%);
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .info-footer__address {
+    margin: 0 -13px 18px -13px;
   }
 }
 .info-footer__address a {
@@ -1670,4 +1701,73 @@ address {
   text-align: center;
   color: #B3B3BA;
   margin: 0 0 30px 0;
+}
+
+.info-footer a:hover {
+  color: #F0145A;
+}
+
+.info-footer .icon-facebook-header:hover {
+  color: #F0145A;
+}
+
+.servise-page-top {
+  padding: 126px 0 30px 0;
+}
+@media (min-width: 768px) {
+  .servise-page-top {
+    padding: 274px 0 0 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .servise-page-top {
+    padding: 259px 0 0 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) and (min-width: 1440px) {
+  .servise-page-top {
+    padding: 170px 0 0 0;
+  }
+}
+
+.services-page-partners-wraper {
+  padding: 81px 0 0 0;
+}
+
+.servise-page-cont-footer {
+  padding: 30px 60px 0 60px;
+}
+
+.services-page-logos {
+  display: flex;
+}
+.services-page-logos .img-logos {
+  min-width: 70px;
+}
+@media (min-width: 768px) {
+  .services-page-logos .img-logos {
+    min-width: 130px;
+  }
+}
+.services-page-logos .img-slash {
+  min-width: 12px;
+  margin: 0 4px;
+}
+@media (min-width: 768px) {
+  .services-page-logos .img-slash {
+    min-width: 21px;
+  }
+}
+.services-page-logos p {
+  margin: 0;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .services-page-logos p {
+    font-size: 36px;
+    line-height: 1.2222222222;
+  }
 }/*# sourceMappingURL=style.css.map */

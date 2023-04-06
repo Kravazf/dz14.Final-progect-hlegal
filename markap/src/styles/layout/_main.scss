@@ -132,8 +132,8 @@
         @media (min-width: 1024px){
           padding: 15px 0px;
         }
+      }
     }
-  }
 
   .tab-item {
     visibility: hidden;
@@ -251,7 +251,6 @@
     }
   }
 
-
   &:before {
     content: "";
     display: block;
@@ -337,7 +336,6 @@
     margin: 0 -30px;
   }
 
-
     &__card {
       font-size: 16px;
       line-height: calc(26/16);
@@ -380,7 +378,6 @@
     @media (min-width: 768px){
       margin: 80px 60px 0 60px;
       
-
       @media (min-width: 1024px){
         display: flex;
         align-items: center;
@@ -513,7 +510,6 @@
         padding: 57px 0 0 0;
       }
     }
-
 
   &__title {
     margin: 0 auto;
